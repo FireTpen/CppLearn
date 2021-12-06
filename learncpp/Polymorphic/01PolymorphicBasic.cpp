@@ -57,6 +57,8 @@ void doSpeak(Animal &animal) //Animal &animal = cat;
 
 void test01()
 {
+    Animal a;
+    cout << "sizeof = " << sizeof(Dog) << endl;   
     Cat cat;
     doSpeak(cat);
     Dog dog;
